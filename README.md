@@ -2,6 +2,11 @@
 
 Este projeto foi inicializado com [Create React App] (https://github.com/facebook/create-react-app).
 
+## Como executar?
+
+No Local do arquivo que você salvou, __EXECUTE:__ `yarn install`, isso vai
+instalar as depedências no seu PC, em seguida só executar os comandos nos scripts disponíveis abaixo.
+
 ## Scripts Disponíveis
 
 No diretório do projeto, você pode executar:
@@ -47,4 +52,4 @@ Para aprender o React, verifique a [documentação do React] (https://reactjs.or
 
 ## Homenagem
 
-<big>Rocket seat</big>
+ROCKET SEAT - CURSO DE REACT JS
