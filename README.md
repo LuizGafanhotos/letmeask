@@ -44,3 +44,7 @@ Você nunca precisa usar `ejetar`. O conjunto de recursos selecionados é adequa
 Você pode aprender mais na [documentação do aplicativo Criar React] (https://facebook.github.io/create-react-app/docs/getting-started).
 
 Para aprender o React, verifique a [documentação do React] (https://reactjs.org/).
+
+## Homenagem
+
+<big>Rocket seat</big>
