@@ -48,3 +48,7 @@ Para aprender o React, verifique a [documentação do React] (https://reactjs.or
 ## Homenagem
 
 ROCKET SEAT - CURSO DE REACT JS
+repositório original: (https://github.com/rocketseat-education/nlw-06-reactjs/tree/aula05)
+
+O projeto foi feito com o curso de react da rocketseat
+https://github.com/rocketseat-education
