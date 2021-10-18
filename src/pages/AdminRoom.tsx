@@ -72,6 +72,8 @@ export function AdminRoom(){
                                 key={question.id}
                                 content={question.content}
                                 author={question.author}
+                                isAnswer={question.isAnswered}
+                                isHighligted={question.isHighlighted}
                             >
                             <button type="button" onClick={() => handleCheckQuestionAsAnswered(question.id)}>
                                 <img src={checkImg} alt="Marcar pergunta como respondida" />
