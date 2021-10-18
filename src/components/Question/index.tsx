@@ -21,7 +21,7 @@ export function Question({
     children,
 }: QuestionProps){
     return (
-        <div className={cx('question', {answered: isAnswer}, {highlighted: isHighligted})}>
+        <div className={cx('question', {answered: isAnswer}, {highlighted: isHighligted && !isAnswer})}>
             <p>{content}</p>
             <footer>
                 <div className="user-info">
