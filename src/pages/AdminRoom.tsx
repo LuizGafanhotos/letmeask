@@ -75,12 +75,18 @@ export function AdminRoom(){
                                 isAnswer={question.isAnswered}
                                 isHighligted={question.isHighlighted}
                             >
-                            <button type="button" onClick={() => handleCheckQuestionAsAnswered(question.id)}>
-                                <img src={checkImg} alt="Marcar pergunta como respondida" />
-                            </button>
-                            <button type="button" onClick={() => handleHighLightQuestion(question.id)}>
-                                <img src={answerImg} alt="Destacar pergunta" />
-                            </button>
+                            {!question.isAnswered && (
+                                <>
+                                    <div>
+                                        <button type="button" onClick={() => handleCheckQuestionAsAnswered(question.id)}>
+                                            <img src={checkImg} alt="Marcar pergunta como respondida" />
+                                        </button>
+                                        <button type="button" onClick={() => handleHighLightQuestion(question.id)}>
+                                            <img src={answerImg} alt="Destacar pergunta" />
+                                        </button>
+                                    </div>
+                                </>
+                            )}
                             <button type="button" onClick={() => handleDeleteQuestion(question.id)}>
                                 <img src={deleteImg} alt="Remover pergunta" />
                             </button>
